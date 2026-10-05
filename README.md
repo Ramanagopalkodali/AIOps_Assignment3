@@ -32,9 +32,8 @@ AIOps_Assignment3/
 ├── benchmark/
 ├── logs/
 ├── screenshots/
-├── report/
-│   ├── report.tex
-│   └── figures/
+├── report.pdf
+│   
 └── ...
 ```
 
@@ -217,19 +216,7 @@ The completed main parity comparison reported **127,627,157 rows across 36 month
 
 ## 12. Report
 
-The report source is:
-
-```text
-report/report.tex
-```
-
-Plots are in:
-
-```text
-report/figures/
-```
-
-The report can be uploaded directly to Overleaf. The plots are already generated from the supplied benchmark metric files and resource logs.
+the report is made from teh actual mentrics and values from the logs and the conclsuions we have arried from this experiment
 
 ## 13. AI usage
 
