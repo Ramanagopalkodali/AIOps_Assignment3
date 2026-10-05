@@ -1,0 +1,154 @@
+{
+  "framework": "spark",
+  "mode": "udf",
+  "months_processed": 36,
+  "total_wall_clock_seconds": 432.3402358149997,
+  "month_times": [
+    {
+      "month": "2023-01",
+      "seconds": 16.80407465799999
+    },
+    {
+      "month": "2023-02",
+      "seconds": 11.776620930999343
+    },
+    {
+      "month": "2023-03",
+      "seconds": 16.080893841000034
+    },
+    {
+      "month": "2023-04",
+      "seconds": 18.904984755999976
+    },
+    {
+      "month": "2023-05",
+      "seconds": 15.102113877999727
+    },
+    {
+      "month": "2023-06",
+      "seconds": 16.48980855299851
+    },
+    {
+      "month": "2023-07",
+      "seconds": 10.060669206999592
+    },
+    {
+      "month": "2023-08",
+      "seconds": 7.196748678001313
+    },
+    {
+      "month": "2023-09",
+      "seconds": 8.917321559998527
+    },
+    {
+      "month": "2023-10",
+      "seconds": 14.862858099000732
+    },
+    {
+      "month": "2023-11",
+      "seconds": 13.30768503499894
+    },
+    {
+      "month": "2023-12",
+      "seconds": 12.592695707999155
+    },
+    {
+      "month": "2024-01",
+      "seconds": 8.500144223000461
+    },
+    {
+      "month": "2024-02",
+      "seconds": 14.11748033799995
+    },
+    {
+      "month": "2024-03",
+      "seconds": 14.098171232000823
+    },
+    {
+      "month": "2024-04",
+      "seconds": 16.88264467799854
+    },
+    {
+      "month": "2024-05",
+      "seconds": 19.253720774000612
+    },
+    {
+      "month": "2024-06",
+      "seconds": 12.98197461899872
+    },
+    {
+      "month": "2024-07",
+      "seconds": 9.849779637999745
+    },
+    {
+      "month": "2024-08",
+      "seconds": 8.20039417999942
+    },
+    {
+      "month": "2024-09",
+      "seconds": 8.318122630000289
+    },
+    {
+      "month": "2024-10",
+      "seconds": 8.101755187999515
+    },
+    {
+      "month": "2024-11",
+      "seconds": 8.750155965999511
+    },
+    {
+      "month": "2024-12",
+      "seconds": 8.94796575699911
+    },
+    {
+      "month": "2025-01",
+      "seconds": 9.741537906000303
+    },
+    {
+      "month": "2025-02",
+      "seconds": 11.474375259998851
+    },
+    {
+      "month": "2025-03",
+      "seconds": 11.69252274000064
+    },
+    {
+      "month": "2025-04",
+      "seconds": 10.261089276000348
+    },
+    {
+      "month": "2025-05",
+      "seconds": 13.34231366899985
+    },
+    {
+      "month": "2025-06",
+      "seconds": 11.650615460999688
+    },
+    {
+      "month": "2025-07",
+      "seconds": 9.009219503001077
+    },
+    {
+      "month": "2025-08",
+      "seconds": 8.65757944500001
+    },
+    {
+      "month": "2025-09",
+      "seconds": 10.382434990000547
+    },
+    {
+      "month": "2025-10",
+      "seconds": 13.523649246999412
+    },
+    {
+      "month": "2025-11",
+      "seconds": 9.973366346999683
+    },
+    {
+      "month": "2025-12",
+      "seconds": 12.465144980000332
+    }
+  ],
+  "output_dir": "/home/ramscp/AIOps_Assignment3/output/spark_result_udf",
+  "udf_stage_timing": "Use Spark UI Stages for the actual PythonUDF stage duration; the total benchmark timer above includes ingestion through export."
+}

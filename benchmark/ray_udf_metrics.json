@@ -1,0 +1,163 @@
+{
+  "framework": "ray",
+  "mode": "udf",
+  "months_processed": 36,
+  "total_wall_clock_seconds": 711.0328248780006,
+  "month_times": [
+    {
+      "month": "2023-01",
+      "seconds": 14.032512671001314
+    },
+    {
+      "month": "2023-02",
+      "seconds": 10.234376468999471
+    },
+    {
+      "month": "2023-03",
+      "seconds": 12.104232284998943
+    },
+    {
+      "month": "2023-04",
+      "seconds": 14.973303371998554
+    },
+    {
+      "month": "2023-05",
+      "seconds": 26.40040528499958
+    },
+    {
+      "month": "2023-06",
+      "seconds": 25.11700916100017
+    },
+    {
+      "month": "2023-07",
+      "seconds": 19.187824795999404
+    },
+    {
+      "month": "2023-08",
+      "seconds": 13.794155244999274
+    },
+    {
+      "month": "2023-09",
+      "seconds": 18.302438255001107
+    },
+    {
+      "month": "2023-10",
+      "seconds": 22.420276505999936
+    },
+    {
+      "month": "2023-11",
+      "seconds": 19.265459309999642
+    },
+    {
+      "month": "2023-12",
+      "seconds": 20.352273337000952
+    },
+    {
+      "month": "2024-01",
+      "seconds": 18.34535622599833
+    },
+    {
+      "month": "2024-02",
+      "seconds": 19.94280677200004
+    },
+    {
+      "month": "2024-03",
+      "seconds": 19.17627484300101
+    },
+    {
+      "month": "2024-04",
+      "seconds": 19.231223538999984
+    },
+    {
+      "month": "2024-05",
+      "seconds": 19.324936356000762
+    },
+    {
+      "month": "2024-06",
+      "seconds": 18.67603034000058
+    },
+    {
+      "month": "2024-07",
+      "seconds": 16.37578933400073
+    },
+    {
+      "month": "2024-08",
+      "seconds": 16.15981101500074
+    },
+    {
+      "month": "2024-09",
+      "seconds": 20.607559789001243
+    },
+    {
+      "month": "2024-10",
+      "seconds": 19.9143020169995
+    },
+    {
+      "month": "2024-11",
+      "seconds": 19.56908747899979
+    },
+    {
+      "month": "2024-12",
+      "seconds": 18.030027573999178
+    },
+    {
+      "month": "2025-01",
+      "seconds": 16.98336121000102
+    },
+    {
+      "month": "2025-02",
+      "seconds": 18.741887179001424
+    },
+    {
+      "month": "2025-03",
+      "seconds": 22.746979575000296
+    },
+    {
+      "month": "2025-04",
+      "seconds": 21.92114220000076
+    },
+    {
+      "month": "2025-05",
+      "seconds": 25.874793572998897
+    },
+    {
+      "month": "2025-06",
+      "seconds": 24.250657669999782
+    },
+    {
+      "month": "2025-07",
+      "seconds": 21.66829473800135
+    },
+    {
+      "month": "2025-08",
+      "seconds": 23.01491094300036
+    },
+    {
+      "month": "2025-09",
+      "seconds": 25.355559283998446
+    },
+    {
+      "month": "2025-10",
+      "seconds": 24.609440612999606
+    },
+    {
+      "month": "2025-11",
+      "seconds": 21.88454696700137
+    },
+    {
+      "month": "2025-12",
+      "seconds": 22.428854256000704
+    }
+  ],
+  "output_dir": "output/ray_result_udf",
+  "ray_join_note": "Taxi-zone enrichment uses Pandas merge inside Ray map_batches (zone table passed via fn_kwargs).",
+  "deduplication_note": "Exact per-month drop_duplicates() on the cleaned month, matching Spark's per-month dropDuplicates(). No global groupby shuffle.",
+  "memory_tuning": {
+    "read_blocks": 16,
+    "map_batch_size": 20000,
+    "output_chunk_rows": 250000,
+    "object_store_limit_bytes": 2147483648,
+    "target_max_block_size_bytes": 67108864,
+    "columns_projected_at_read": true
+  }
+}

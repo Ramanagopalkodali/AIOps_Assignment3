@@ -1,0 +1,10 @@
+# Do NOT push the large dataset
+data/
+
+# Do NOT push generated Parquet/output files
+output/
+
+# Python/editor generated files
+__pycache__/
+*.pyc
+.DS_Store
